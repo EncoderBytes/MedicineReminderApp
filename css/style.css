@@ -1,0 +1,268 @@
+header .bar-nav {
+  background-color: white;
+}
+
+header .bar-nav .thumbnail {
+  width: 100px;
+}
+
+header .bar-nav .ul-items .li-item {
+  padding: 30px;
+}
+
+header .background {
+  background: url(../img/back1.png);
+  background-size: cover;
+  min-height: 80vh;
+  padding: 0 20px;
+}
+
+header .background .paras {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 4.7rem;
+  font-weight: 150;
+}
+
+header .background .hedin {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+header .background .paras1 {
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 150;
+}
+
+header .background .button .btn {
+  border-radius: 20px;
+  padding: 6px 25px;
+  margin: 5px;
+}
+
+main {
+  padding: 15px;
+}
+
+main .main-sub1 .sub1 {
+  margin-top: -45px;
+}
+
+main .main-sub1 .sub2 {
+  width: 300px;
+  margin-top: -120;
+}
+
+main .main-sub2 .sec2sub1 {
+  text-align: center;
+}
+
+main .main-sub3 {
+  margin-top: 5rem;
+}
+
+main .main-sub3 .sec2sub3 {
+  color: black;
+  margin-top: 5rem;
+}
+
+main .main-sub3 .sec2sub3 h5 {
+  color: #2F5BB1;
+}
+
+main .main-sub3 .sec2sub3 h2 {
+  color: black;
+}
+
+main .main-sub3 .sec2sub3 p {
+  color: Black;
+  opacity: .7;
+}
+
+main .main-sub4 .sec2sub4 {
+  color: black;
+  margin-top: 10rem;
+}
+
+main .main-sub4 .sec2sub4 h5 {
+  color: #2F5BB1;
+}
+
+main .main-sub4 .sec2sub4 h2 {
+  color: black;
+}
+
+main .main-sub4 .sec2sub4 p {
+  color: Black;
+  opacity: .7;
+}
+
+main .main-sub4 .sec2sub5 img {
+  width: 300px;
+}
+
+main .main-sub5 {
+  margin-top: 5rem;
+}
+
+main .main-sub5 .sec2sub6 img {
+  width: 300px;
+}
+
+main .main-sub5 .sec2sub7 {
+  color: black;
+  margin-top: 10rem;
+}
+
+main .main-sub5 .sec2sub7 h5 {
+  color: #2F5BB1;
+}
+
+main .main-sub5 .sec2sub7 h2 {
+  color: black;
+}
+
+main .main-sub5 .sec2sub7 p {
+  color: Black;
+  opacity: .7;
+}
+
+main .background2 {
+  background: url(../img/back2.png);
+  background-size: cover;
+  min-height: 50vh;
+  background-blend-mode: darken;
+}
+
+main .background2 .back-sub1 .hedin {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 4rem;
+  font-weight: bold;
+}
+
+main .background2 .back-sub2 .paras {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 150;
+}
+
+main .background2 .back-sub3 {
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+
+main .background2 .back-sub3 .btn {
+  border-radius: 20px;
+  padding: 6px 25px;
+  margin: 5px;
+  text-align: center;
+  margin-left: .0rem;
+}
+
+footer {
+  height: 15vh;
+  padding-top: 25px;
+}
+
+footer .sect .sect1 {
+  color: #2F5BB1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .sect .sect1 .f-cl {
+  margin: 5px;
+  font-size: 25px;
+}
+
+footer .sect .sect2 {
+  font-size: 13px;
+  padding-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (max-width: 788px) {
+  body {
+    text-align: center;
+  }
+  header .background {
+    background: white;
+    background-size: cover;
+    min-height: 80vh;
+    padding: 0 20px;
+  }
+  header .background .paras {
+    color: black;
+    opacity: .7;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 4.7rem;
+    font-weight: 150;
+  }
+  header .background .hedin {
+    color: black;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  header .background .paras1 {
+    color: black;
+    opacity: .7;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 150;
+  }
+  header .background .button .btn {
+    border-radius: 20px;
+    padding: 6px 25px;
+    margin: 5px;
+  }
+  main {
+    padding: 15px;
+  }
+  main .background2 {
+    background: #252B42;
+    background-size: cover;
+    min-height: 80vh;
+    padding: 0 20px;
+    padding-top: 4rem;
+  }
+  main .main-sub1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .main-sub1 .sub1 {
+    width: 150;
+    margin-top: 10px;
+  }
+  main .main-sub1 .sub2 {
+    width: 150px;
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
